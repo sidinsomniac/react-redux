@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Cake from "./components/Cake";
 import { Provider } from "react-redux";
-import store from "./redux/cake/store";
+import store from "./redux/store";
 
 export default function App() {
   return (
