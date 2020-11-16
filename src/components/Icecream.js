@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { buyIcecream } from "../redux/icecream/icecreamActions";
+import { buyIcecream } from "../redux";
 
 export default function Icecream() {
   const [decreaseNumber, setDecreaseNumber] = useState(1);
