@@ -11,7 +11,7 @@ export default function Icecream() {
 
   return (
     <div>
-      <h2>Number of icecreams: {numberOfIcecreams}</h2>
+      <h2>Number of ice-creams: {numberOfIcecreams}</h2>
       <input
         value={decreaseNumber}
         onChange={(e) => {
@@ -20,7 +20,7 @@ export default function Icecream() {
         }}
       />
       <button onClick={() => dispatch(buyIcecream(decreaseNumber))}>
-        Buy {decreaseNumber} cakes
+        Buy {decreaseNumber} ice-cream{decreaseNumber > 1 ? "s" : ""}
       </button>
     </div>
   );
